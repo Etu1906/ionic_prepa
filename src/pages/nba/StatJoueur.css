@@ -1,0 +1,57 @@
+.table-container_stat {
+  overflow-x: auto;
+}
+.stat_container {
+  padding: 20px;
+  background: #f1f1f1;
+  min-height: 100vh;
+}
+
+.stat-table {
+  border-collapse: collapse;
+  width: 200%;
+}
+.stat-table tr{
+    background-color: #ffff;
+  }
+.stat-table tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.stat-table th,
+.stat-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+.stat-table td {
+}
+.stat-table td {
+  padding-bottom: 5px;
+}
+
+.stat-table th {
+  background-color: #0f6db4;
+  color: #e8f8fd;
+}
+
+.fixed-col {
+  position: sticky;
+  left: 0;
+  background-color: #f2f2f2;
+  z-index: 1;
+}
+
+
+.stat-container {
+    animation: fadeIn 0.5s ease-in-out; /* Ajoutez votre animation ici */
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }

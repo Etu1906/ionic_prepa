@@ -1,0 +1,20 @@
+commande:
+    ☐ pnpm.cmd i -E @capacitor/android@5.5.1
+    ☐  npm.cmd i -E @capacitor/ios@5.5.1
+    ☐ pnpm install capacitor-plugin-dynamsoft-barcode-reader copy-to-clipboard
+
+image:
+    ☐ Filesystem API
+
+apk:
+    ☐ ionic build
+    ☐ npx @capacitor/cli init
+
+photo:
+    ☐ pnpm install @capacitor/camera
+    ☐ pnpm install @capacitor/preferences
+    ☐ pnpm install @capacitor/filesystem
+    ☐ npm install @ionic/pwa-elements
+
+filesytem:
+    ☐ npm install @capacitor/filesystem

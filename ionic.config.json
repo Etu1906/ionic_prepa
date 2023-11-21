@@ -1,0 +1,7 @@
+{
+  "name": "ionic_prepa",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}

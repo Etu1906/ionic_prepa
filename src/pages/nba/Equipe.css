@@ -1,0 +1,48 @@
+.equipe_card {
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  min-height: 20px;
+  width: 90%;
+  margin: auto;
+  padding: 10px;
+  border-radius: 25px;
+  /* box-shadow: 1px 1px 34px #e9eaf6; */
+  margin-top: 10px;
+  background: #f2f2f2;
+}
+.title_equipe {
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #0f6db4;
+}
+.hr_card {
+  position: absolute;
+  top: 0;
+  height: 20px;
+}
+.icon_basket {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #0f6db4;
+}
+.info_equipe {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.info_equipe {
+  padding: 15px;
+}
+.info_right {
+  color: #0f6db4;
+  transition: 0.2s;
+  font-size: 20px;
+}
+.equipe {
+  margin-bottom: 10px;
+}
+.abreviation {
+  color: #b3b7c6;
+}
